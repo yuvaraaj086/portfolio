@@ -69,7 +69,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(33, 33, 33);
+    background: rgb(47,47,47);
+    
 }
 .navbar .max-width{
     display: flex;
@@ -99,7 +100,6 @@ section .title::after{
     color: #ff0266;
     text-decoration: underline;
 }
-
 
 .menu-btn{
     color: #fff;
@@ -157,7 +157,6 @@ section .title::after{
     color:#fff;
     
 }
-
 
 .qualifications .serv-content .card{
     width: calc(33% - 20px);
@@ -333,7 +332,8 @@ section .title::after{
   background: none;
 }
 footer{
-    background: rgb(33, 33, 33);
+    background: rgb(47,47,47);
+    background: radial-gradient(circle, rgba(47,47,47,1) 0%, rgba(13,12,12,1) 100%);
 }
 footer span a{
     color: crimson;
