@@ -348,9 +348,11 @@ footer span a:hover{
 }
 
 .social-icons{
-	padding:30px;
-    background: rgb(33, 33, 33);
-    text-align: center;
+  padding:30px;
+  background: rgb(47,47,47);
+  background: radial-gradient(circle, rgba(47,47,47,1) 0%, rgba(13,12,12,1) 100%);
+  text-align: center;
+
 }
 .social-icons a{
   color:white;
