@@ -9,9 +9,11 @@
 html{
     scroll-behavior: smooth;
 }
+
 section{
     padding: 100px 0;
 }
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -63,15 +65,13 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
-    
+    padding: 20px 0;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 20px 0;
     background: rgb(47,47,47);
     background: radial-gradient(circle, rgba(47,47,47,1) 0%, rgba(13,12,12,1) 100%);
-    
 }
 .navbar .max-width{
     display: flex;
@@ -101,6 +101,7 @@ section .title::after{
     color: #ff0266;
     text-decoration: underline;
 }
+
 
 .menu-btn{
     color: #fff;
@@ -158,6 +159,7 @@ section .title::after{
     color:#fff;
     
 }
+
 
 .qualifications .serv-content .card{
     width: calc(33% - 20px);
@@ -335,9 +337,10 @@ section .title::after{
 footer{
     background: rgb(47,47,47);
     background: radial-gradient(circle, rgba(47,47,47,1) 0%, rgba(13,12,12,1) 100%);
-    padding: 15px 25px;
+    padding: 20px 0;
     color: #fff;
     text-align: center;
+    position: relative;
 }
 footer span a{
     color: crimson;
@@ -348,16 +351,13 @@ footer span a:hover{
 }
 
 .social-icons{
-  padding:30px;
-  background: rgb(47,47,47);
-  background: radial-gradient(circle, rgba(47,47,47,1) 0%, rgba(13,12,12,1) 100%);
-  text-align: center;
-
+	padding:10px 0;
+    text-align: center;
 }
 .social-icons a{
   color:white;
   line-height:30px;
-  font-size:50px;
+  font-size:30px;
   margin: 0 5px;
   text-decoration:none;
   
