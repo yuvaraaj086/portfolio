@@ -197,7 +197,7 @@ section .title::after{
     height:70px;
     background: #1E1F26;
     margin: 10px 0;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     align-items: center;
     letter-spacing: 0.1rem;
@@ -467,3 +467,4 @@ footer span a:hover{
         margin-left: auto;
       }
 }
+
