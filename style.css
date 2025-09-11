@@ -9,11 +9,9 @@
 html{
     scroll-behavior: smooth;
 }
-
 section{
     padding: 100px 0;
 }
-
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -37,8 +35,7 @@ section .title{
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
 section .title::before{
     content: "";
@@ -60,7 +57,6 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-
 .navbar{
     position: fixed;
     width: 100%;
@@ -101,8 +97,6 @@ section .title::after{
     color: #ff0266;
     text-decoration: underline;
 }
-
-
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -120,7 +114,12 @@ section .title::after{
     width: 350px;
     object-fit: cover;
     border-radius: 50%;
-
+}
+.left img:hover{
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 
+              0 0 10px #4CA1AF, 
+              0 0 20px #4CA1AF; 
 }
 .home .home-content .right{
     width: 55%;
@@ -156,8 +155,7 @@ section .title::after{
     text-align: justify;
 }
 .qualifications,.project{
-    color:#fff;
-    
+    color:#fff;  
 }
 .qualifications .serv-content .card{
     width: calc(33% - 20px);
@@ -212,8 +210,7 @@ section .title::after{
     left: -20px;
     top: 50%;
     transform: translateY(-50%);
-}
-  
+}  
 .block::after{
     content: "";
     position: absolute;
@@ -232,12 +229,10 @@ section .title::after{
     margin:1em 2em 2em;
     list-style-type: none;
     text-align: center;
-
 }
 .project .max-width li a{
     color:white;
-    font-size: 25px;
-    
+    font-size: 25px;  
 }
 .project .max-width li a:hover{
     color:#ff0266;
@@ -300,7 +295,6 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
@@ -424,8 +418,7 @@ footer span a:hover{
     }
     .max-width{
         max-width: 930px;
-    }
-    
+    }  
     .qualifications .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -435,17 +428,14 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
-
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
     }
-   
     .qualifications .serv-content .card{
         width: 100%;
     }
 }
-
 @media (max-width: 500px) {
     .home .home-content .right .text
     .contact .right form .fields{
@@ -457,8 +447,7 @@ footer span a:hover{
     }
     .right form .error-box{
        width: 150px;
-    }
-    
+    }  
 }
 @media screen and (max-width:980px)
 {
@@ -467,4 +456,3 @@ footer span a:hover{
         margin-left: auto;
       }
 }
-
